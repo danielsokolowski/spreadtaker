@@ -1,0 +1,40 @@
+<html>
+<head>
+<script
+  src="https://code.jquery.com/jquery-1.12.4.js"
+  integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU="
+  crossorigin="anonymous"></script>
+  
+<style>
+body {
+    display: flex;
+    flex-direction: row;
+	font-size: 14px;
+}
+
+iframe {
+	width: 50%;
+	height: 100vh;
+	overflow: auto;
+}
+
+#oStatusElement {
+	font-family: "Lucida Console 0 Fixed (DS) Regular", "Lucida Console";
+	width: 15vw;
+}
+</style>
+
+</head>
+
+<body>
+<div id='oStatusElement'>...</div>
+<iframe id='oNEOIFrame' src='https://www.aequitasneo.com/en/single-security/ETHC'>
+
+</iframe>
+
+<iframe id='oVBIFrame' src='https://dashboard.virtualbrokers.com/UserAccount/trading_vb_trader.aspx'>
+
+</iframe>
+</body>
+<script src="spreadtaker.js"></script>
+</html>
